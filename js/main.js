@@ -67,8 +67,4 @@
     refs.modal5.classList.toggle('is-hidden5');
     }
 
-  })();
-
-
-  var swiper=new Swiper(".bestseller-slider",{slidesPerView:1,spaceBetween:10,loop:!0,pagination:{el:".swiper-pagination",clickable:!0},autoplay:{delay:2500,disableOnInteraction:!1},breakpoints:{640:{slidesPerView:2,spaceBetween:20},768:{slidesPerView:3,spaceBetween:20},1024:{slidesPerView:4,spaceBetween:30}}});
-  
+  })();  

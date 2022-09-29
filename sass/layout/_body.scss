@@ -62,7 +62,6 @@ text-decoration: none;
 .title__link {
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
     border: aliceblue;
     border-color: #fff !important;
     font-weight: 500;
@@ -76,7 +75,32 @@ text-decoration: none;
     background-color: transparent;
     font-weight: 500;
     text-align: left;
+
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 5;
+    overflow: hidden;
+    font-family: "ProximaNovaBold",Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background: rgba(255,255,255,0.76);
+    color: currentColor;
+    white-space: nowrap;
+    -webkit-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out false;
+    transition: all 0.15s ease-in-out false;
+
+    display: inline-block;
+    padding: 1.2em 2.5em 1.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4c5c65;
+    border: none;
 }
+
 
 .wrapper__items {
     flex: 1 1 400px;
@@ -147,7 +171,8 @@ font-size: 1.4rem;
     padding-bottom: 10px;
     font-weight: 700;
     text-transform: capitalize;
-    text-align: left; color:#000;
+    text-align: center; 
+    color:#000;
 }
 
 .mr20 {
@@ -181,15 +206,15 @@ button {
 }
 
 .hero__section {
-    background-image: url('../../img/hero-mob.avif');
-  height: 80vh; width: 100%; 
+    background-image: url('../../img/hero-1mob.png');
+  height: 53vh; width: 100%; 
   background-repeat: no-repeat; 
  background-size: 100% 100%;
   position: relative;
 
   @media screen and (min-width: 1200px) {
-    background-image: url('../../img/hero.avif');
-  height: 80vh; width: 100%; 
+    background-image: url('../../img/hero1.png');
+  height: 72vh; width: 100%; 
   background-repeat: no-repeat; 
  background-size: 100% 100%;
   position: relative;
@@ -198,19 +223,47 @@ button {
 
 .hero__title {
     position:absolute;
-    font-size: 48px!important; 
-    top: 30%; left:10%;
+    font-size: 32px; 
+    top: 20%; 
+    left:5%;
     line-height: 60px;
     letter-spacing: normal;
     font-weight: 500;
     @media screen and (min-width: 1200px) {
     position:absolute;
-    font-size: 48px!important; 
-    top: 40%; left:10%;
-    line-height: 60px;
-    letter-spacing: normal;
-    font-weight: 500;
+    font-family: "Hind",Arial,sans-serif;
+    color: #fff;
+    font-size: 57px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgb(76 92 101 / 75%);
 }
+}
+
+.hero__subtitle {
+    left: 5%;
+    position: absolute;
+    top: 28%;
+    font-family: ProximaNovaRegular,Arial,sans-serif;
+    color: #4c5c65;
+    font-size: 22px;
+    text-decoration: none;
+    margin-bottom: 0.6em;
+    text-shadow: 0 0 10px rgb(76 92 101 / 75%);
+    font-weight: inherit;
+    @media screen and (min-width: 1200px) {
+    left: 5%;
+    position: absolute;
+    top: 28%;
+    font-family: ProximaNovaRegular,Arial,sans-serif;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 0.6em;
+    text-shadow: 0 0 10px rgb(76 92 101 / 75%);
+    font-weight: inherit;
+    }
 }
 
 .header__logo-img {
