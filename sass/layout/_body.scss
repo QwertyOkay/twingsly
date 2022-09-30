@@ -344,8 +344,41 @@ button {
     justify-content: center;
     align-items: center; 
     font-size: 1rem;
+    flex-direction: column;
     @media screen and (min-width:1200px) {
        font-size: 1.6rem;
+       flex-direction: row;
 } 
     }
+
+    .footer__marg {
+        margin-left: 25px;
+        @media screen and (min-width:1200px) {
+            margin-left: 0px;   
+    }
+}
     
+
+.footer__pad {
+    padding: 40px;
+}
+
+footer a:hover {
+    color: #38a7ba;
+    text-decoration: dotted underline;
+}
+
+header {
+    position: fixed;
+          width: 100%;
+          top: 0;
+          left: 0;
+          z-index: 50;
+          background-color: #fff; 
+          border-bottom: 1px solid #ccc;
+}
+
+header a:hover {
+    color: #38a7ba;
+    text-decoration: dotted underline;
+}

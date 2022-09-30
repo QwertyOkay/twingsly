@@ -30,12 +30,7 @@
 <body>
     <main>
         <nav>
-          <header style="position: fixed;
-          width: 100%;
-          top: 0;
-          left: 0;
-          z-index: 50;
-          background-color: #fff; border-bottom: 1px solid #ccc;">
+          <header>
             <div class="header__content">
     <div>
 <a href="/">
@@ -382,9 +377,15 @@
     </div>
   </section>
 
-  <footer style="padding: 40px;">
+  <footer class="footer__pad">
     <div class="footer__section">
-    <div>
+      <a href="/">
+        <h1><img 
+          class="header__logo-img"
+          src="img/logo.png" 
+          alt="HeaderLogo"></h1>
+      </a>
+    <div class="footer__marg">
       <ul class="footer__ul">
         <li class="mr20"><a data-modal-open3>Termes</a></li>
         <li class="mr20"><a data-modal-open2>Politique de confidentialité</a></li>
@@ -507,15 +508,18 @@
         <div class="modal4__pad">
         <span class="modal__hero-text4">
           <noindex>
-          <h3>We support independent designers</h3>
-            <p class="modal__p">Nothing energizes us more than incredible plan. 
-              That’s why we winner rising and set up imaginative ability from all over the world. 
-              The result? Imaginative items and elite ranges. Pieces that consider each space and person. And for our architects, it implies being portion of a genuine association that has their interface at heart. </p>
-                <h3>We regard our planet</h3>
-                <p class="modal__p">We’re taking positive steps to diminish our affect on the planet. For us, which means retailing capably. We’ve set a number of objectives to urge us there. Things like: disposing of all unnecessary plastic from our item bundling, and guaranteeing that the foremost naturally impactful materials we utilize are 100% reasonably sourced.</p>
-                    <h3>We’re locked in with our community</h3>
+          <h3>Infos légales</h3>
+            <p class="modal__p">Le site dans son ensemble, ainsi que les éléments qui le composent et/ou qui y sont présentés (notamment : arborescences, logiciels, bases de données, mobiliers, dessins et modèles, brevets, textes, photographies, illustrations, schémas, représentations graphiques, marques, logos, noms de domaine, etc.) sont protégés par les dispositions du Code de la propriété intellectuelle.
+
+              Twingsly est seule titulaire des droits de propriété intellectuelle portant sur ces éléments, à titre originaire ou par l’effet d’une licence ou d’une autorisation expresse.
+              
+              L’utilisation de tout ou partie de ces éléments, notamment par téléchargement, reproduction, représentation, diffusion etc. à d’autres fins que pour l’usage personnel et privé dans un but non commercial de l’internaute est strictement interdite</p>
+                <!-- <h3>We regard our planet</h3> -->
+                <p class="modal__p">Dans le cadre de l’utilisation du site, Twingsly peut être amenée à collecter les données à caractère personnel relatives aux internautes, nécessaires à l’inscription sur le site pour recevoir la newsletter ou pour la création d’un compte client ou encore pour tout échange avec ce dernier, telles que, notamment : civilité, nom, prénom, adresse de courrier électronique et mot de passe, numéro de téléphone, etc.
+                  Aucune donnée à caractère personnel n'est collectée sans le consentement de l’internaute. La nature facultative ou obligatoire des mentions à communiquer à Twingsly sera préalablement indiquée. L’internaute n’est aucunement contraint de transmettre à Twingsly des données à caractère personnel.</p>
+                    <!-- <h3>We’re locked in with our community</h3> -->
                     <p class="modal__p">
-                      Individuals are at the heart of what we do, and we’re pleased to have made a community as energetic approximately plan as we are. From audits on our item pages to our 1.2 million Instagram fans, nothing makes us more joyful than seeing genuine individuals sharing our items in their homes.
+                      Toutefois, en cas de refus, Twingsly ne sera pas en mesure d'adresser à l’internaute sa newsletter et/ou de répondre à ses messages. En tout état de cause, si l'internaute ne souhaite pas ou plus recevoir la newsletter de Twingsly, il peut en aviser Twingsly en accédant, une fois authentifié sur le site, à la rubrique « Mon compte > Mes Infos ». Il est en tout état de cause également proposé à l'internaute la faculté de se désabonner de la newsletter de Twingsly en cliquant sur un lien hypertexte figurant directement sur chaque numéro de ladite newsletter qui lui sera adressé.
                     </p>
                       </noindex>
                             </span>
@@ -537,10 +541,10 @@
         class="modal__form5"
         id="form" 
         name="form">
-            <p class="modal__heading5">Please enter your details below</p>
+            <p class="modal__heading5">Nous contacter</p>
 
             <label class="modal__thumb5" for="forName">
-                <span class="modal__label">Name*</span>
+                <span class="modal__label">Nom*</span>
                 <input class="modal__input5 _req" 
                 type="text" 
                 name="name" 
@@ -552,7 +556,7 @@
             </label>
     
             <label class="modal__thumb5" for="formEmail">
-                <span class="modal__label">Email*</span>
+                <span class="modal__label">E-mail*</span>
                 <input type="email" 
                 name="email" 
                 id="formEmail" 
@@ -566,11 +570,11 @@
             <label class="modal__thumb5" for="formMessage">
                 <span class="modal__label">Text</span> 
                 <textarea name="message" id="formMessage" 
-                placeholder="Leave your text here" 
+                placeholder="Laissez votre texte ici" 
                 class="modal__area"></textarea>
             </label>
 
-            <button type="submit" class="modal-button__btn">Submit</button>
+            <button type="submit" class="modal-button__btn">Soumettre</button>
         </form>
 
     </div>

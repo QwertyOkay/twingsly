@@ -20,7 +20,6 @@ $second-text-color: rgba(255, 255, 255, 0.6);
 $social-background-color: rgba(255, 255, 255, 0.1);
 
 $overlay-color: rgba(0, 0, 0, 0.2);
-$overlay-card-color: rgba(33, 150, 243, 0.9);
 
 :root {
     --main-title-color: #ffffff;
@@ -143,32 +142,6 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     transform: translate(-50%, -50%) scale(2.9);
 }
 
-.modal5 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%) scale(1);
-    width: 90%;
-    height: auto;
-    padding: 40px;
-    background-color: #f6f6f4ed;
-    opacity: 1;    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-
-    transition-property: opacity, transform;
-    transition-duration: var(--duration);
-    transition-timing-function: var(--function);
-
-    @media screen and (min-width: 480px) {
-        width: 354px;
-        // height: 609px;
-    }
-    @media screen and (min-width: 1200px) {
-    width: 528px;
-}
-}
-
 .modal__close5 {
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -176,18 +149,6 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     color: brown;
     margin-top: 20px;
 } 
-
-.modal__heading5 {
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: .03em;
-    color: #212121;
-    padding: 20px;
-}
 
 .modal__form5 {
     position: relative;
@@ -206,20 +167,6 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     color: #212121;
 }
 
-.modal__input5 {
-    display: block;
-    width: 90%;
-    height: 40px;
-    border: 1px solid rgb(60 48 39);
-    padding-left: 42px;
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:focus {
-        border-color: $accent-color;
-    }
-}
 
 .modal__input5::placeholder {
     color: rgb(45, 45, 45);
@@ -729,7 +676,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     padding: 10px 29px;
     height: 50px;
     color: #fff;
-    background-color: #9f7f66;
+    background-color: #0088a0;
     font-weight: 200;
     font-size: large;
     line-height: 1.87;
@@ -763,7 +710,10 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
         font-size: 12px;
         width: 100%;
         @media screen and (min-width:1200px) {
-            font-size: 17px;
+            font-size: 15px;
+        }
+        @media screen and (min-width:1300px) {
+            font-size: 10px!important;
         }
 }
 
@@ -1001,12 +951,6 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     margin-top: 20px;
 }  
 
-.modal4__pad {
-    padding: 10px;
-    @media screen and (min-width:1200px) {
-        padding: 72px;
-    }
-}
 
 
 // Modal#4 (Privacy Policy) //
@@ -1043,11 +987,11 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%) scale(1);
-    height: 90vh;
+    max-height: 90vh;
     width: 90vw;
     height: auto;
     padding: 15px 15px 0px 15px;
-    background-color: #f6f6f4ed;
+    background-color: #d1ccbe;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1062,7 +1006,8 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     }
     @media screen and (min-width: 1200px) {
         height: 90vh;
-        width: 90vw;
+        max-width: 90vw;
+        font-size: 14px;
 }
 }
 
@@ -1077,7 +1022,14 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
 .modal4__pad {
     padding: 10px;
     @media screen and (min-width:1200px) {
-        padding: 72px;
+        padding: 50px;
+        max-width: 1200px;
+    max-height: 90vh;
+    }
+    @media screen and (min-width:1920px) {
+        padding: 10px;
+        max-width: 1200px;
+    max-height: 90vh;
     }
 }
 
@@ -1140,7 +1092,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     width: 80%;
     height: auto;
     padding: 40px;
-    background-color: #f6f6f4ed;
+    background-color: rgb(209,204,190);
     opacity: 1;    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
