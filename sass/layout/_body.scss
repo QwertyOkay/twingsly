@@ -111,30 +111,36 @@ text-decoration: none;
 .wrapper__flex {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    align-items: center;
+/*     margin-top: 10px;
+ */    align-items: center;
 }
 
 .wrapper__items-title {
-font-size: 1.4rem;
-    line-height: 120%;
-    min-height: 22px;font-weight: 500!important;
-    color: #000;
+    overflow: hidden;
+    font-family: "ProximaNovaRegular",Arial,sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #9aa1a4;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: normal;
 }
 
 .wrapper__items-price {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500!important;
-    color: #000;
     color: #000;
 }
 
 .wrapper__items-desc {
-    margin-bottom: 10px;
-    font-size: 12px;
-    color: rgb(68, 66, 66); font-size: 14px;
-    line-height: 21px;
+/*     margin-bottom: 10px;
+ */    font-size: 12px;
+    letter-spacing: 1px;
+    color: #000;
+    line-height: 11px;
     height: 100%;
+    font-weight: 500;
 }
 
 .wrapper__items-promo {
@@ -143,8 +149,8 @@ font-size: 1.4rem;
     top: 5px;
     padding: 2px 5px;
     font-size: 14px;
-    color: #008248;
-    background-color: #fff;
+    color: #FFF;
+    background-color: #38a7ba;
     font-size: 12px;
     border-radius: 2px;
     display: inline-block;
@@ -173,6 +179,31 @@ font-size: 1.4rem;
     text-transform: capitalize;
     text-align: center; 
     color:#000;
+}
+
+.wrapper__bord-desc {
+    border: 1px solid #e8e8e8;
+    padding: 15px;
+}
+
+.wrapper__bord-desc:hover {
+    /* border: 2px solid #000; */
+    cursor: pointer;
+}
+
+.wrapper__link-bord {
+    border: 1px solid #e8e8e8;
+    /*   -webkit-transition: all 0.15s ease-in-out;
+      -webkit-transition-delay: 0s; */
+}
+
+.wrapper__link-bord:hover {
+    border: 2px solid #4c5c65;
+    /* border: 2px solid rgb(104,110,100); */
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+   /*  transform: scale(0,0); */
+   box-shadow: 0 3px 8px rgba(0, 0, 0, .16);
 }
 
 .mr20 {
