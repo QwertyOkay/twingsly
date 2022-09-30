@@ -177,7 +177,7 @@ text-decoration: none;
     padding-bottom: 10px;
     font-weight: 700;
     text-transform: capitalize;
-    text-align: center; 
+    text-align: left;
     color:#000;
 }
 
@@ -270,6 +270,14 @@ button {
  background-size: 100% 100%;
   position: relative;
   }
+}
+
+.hero__section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero__title {

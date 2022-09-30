@@ -257,7 +257,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     width: 90%;
     height: 50px;
     padding: 15px 15px 0px 15px;
-    background-color: var(--main-title-color);
+    background-color: #dbdada;
     opacity: 1;
     border-radius: 6px;
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -359,15 +359,15 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     background-color: #f6f6f4;
     width: 90%;
     height: 40px;
-    border: 1.5px solid rgb(60 48 39);
+    border: none;
     padding-left: 42px;
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:focus {
+    /* &:focus {
         border-color: $accent-color;
-    }
+    } */
 }
 
 .modal__input5::placeholder {
@@ -407,15 +407,15 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: #000;
-    border: 1.5px solid rgb(60 48 39);
+    border: none;
     box-sizing: border-box;
     transition-property: border-color;
     transition-duration: $duration;
     transition-timing-function: $function;
 
-    &:focus {
+    /* &:focus {
         border-color: $accent-color;
-    }
+    } */
 }
 
 .modal__area::placeholder {
@@ -430,7 +430,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
 
 
 .modal__link {
-    color: var(--accent-color);
+    /* color: var(--accent-color); */
     text-decoration-skip-ink: none;
 }
 
@@ -563,7 +563,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     width: 90vw;
     height: auto;
     padding: 15px 15px 0px 15px;
-    background-color: #f6f6f6;
+    background-color: #dbdada;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -628,7 +628,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     width: 90vw;
     height: auto;
     padding: 15px 15px 0px 15px;
-    background-color: #f6f6f6;
+    background-color: #dbdada;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -697,7 +697,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     height: auto;
     
     padding: 15px 15px 0px 15px;
-    background-color: #f6f6f6;
+    background-color: #dbdada;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -764,7 +764,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     width: 90vw;
     height: auto;
     padding: 15px 15px 0px 15px;
-    background-color: #f6f6f6;
+    background-color: #dbdada;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -865,7 +865,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     width: 80%;
     height: auto;
     padding: 40px;
-    background-color: #f6f6f6;
+    background-color: #dbdada;
     opacity: 1;    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -894,7 +894,7 @@ $overlay-color: rgba(0, 0, 0, 0.2);
     margin-top: 0;
     margin-bottom: 12px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 27px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: .03em;
