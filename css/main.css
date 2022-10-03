@@ -1195,13 +1195,14 @@ a {
 
 .header__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-left: 30px;
 }
 @media screen and (min-width: 1200px) {
   .header__content {
     padding-left: 0px;
+    justify-content: space-around;
   }
 }
 
@@ -1526,12 +1527,15 @@ button {
 }
 
 .header__logo-img {
-  height: 62px;
+  height: 40px;
   width: 60px;
+  display: flex;
+  align-items: baseline;
 }
 @media screen and (min-width: 1200px) {
   .header__logo-img {
     width: auto;
+    height: 62px;
   }
 }
 
