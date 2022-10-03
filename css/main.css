@@ -1531,7 +1531,6 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  max-width: 1470px;
   font-size: 0.99rem;
   border-top: solid 2px #979797;
 }
