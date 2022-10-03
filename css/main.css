@@ -1063,7 +1063,7 @@ u, ins {
 @media screen and (min-width: 1920px) {
   .modal4__pad {
     padding: 10px;
-    max-width: 1200px;
+    max-width: 2560px;
     max-height: 90vh;
   }
 }
