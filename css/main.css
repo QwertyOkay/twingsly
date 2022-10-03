@@ -1354,14 +1354,23 @@ a {
   list-style: none;
 }
 
+.shop__container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1470px;
+  display: block;
+}
+
 .wrapper__title {
   font-size: calc(26px + 10 * (100vw - 320px) / 960);
   margin: 0 0 40px;
   padding-bottom: 10px;
   font-weight: 700;
-  text-transform: capitalize;
+  font-weight: 400;
   text-align: left;
-  color: #000;
+  color: #6bc2bb;
+  text-transform: uppercase;
 }
 
 .wrapper__bord-desc {
